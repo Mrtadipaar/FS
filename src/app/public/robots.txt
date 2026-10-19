@@ -1,0 +1,27 @@
+# robots.txt for FynestStudio
+# https://fyneststudio.com
+
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /api/
+Disallow: /*.json$
+
+# Sitemap
+Sitemap: https://fyneststudio.com/sitemap.xml
+
+# Crawl-delay
+Crawl-delay: 0
+
+# Common bots
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
